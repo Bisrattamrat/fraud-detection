@@ -1,1 +1,4 @@
 data/raw/creditcard.csv
+data/
+models/
+*.pkl
