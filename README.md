@@ -42,4 +42,53 @@ Enhancements include:
 - Added basic error handling for dataset loading.
 - Improved repository structure to support future modeling and SHAP explainability tasks.
 
-These improvements prepare the project for model training, evaluation, explainability, and collaboration.
+These improvements prepare the project for model training, evaluation, explainability, and collaboration.- Fraud detection capability
+- Robustness
+- Interpretability
+- Generalization ability
+
+Random Forest was selected as the preferred model because it achieved stronger fraud detection performance.
+
+---
+
+11. Model Persistence
+
+The selected model was saved using Joblib.
+
+Saved Model:
+
+models/random_forest.pkl
+
+This allows future deployment without retraining.
+
+---
+
+12. Challenges Encountered
+
+Challenges included:
+
+- Class imbalance
+- Feature selection
+- Model tuning
+- Dataset size
+- Environment setup issues
+
+These challenges were addressed using SMOTE, model optimization, and reproducible workflows.
+
+---
+
+13. Conclusion
+
+Task 2 successfully completed:
+
+- Data preparation
+- Stratified train-test split
+- SMOTE balancing
+- Logistic Regression training
+- Random Forest training
+- Hyperparameter tuning
+- Cross Validation
+- Model comparison
+- Model persistence
+
+The next phase will focus on model explainability using SHAP, feature importance analysis, and business recommendations.
